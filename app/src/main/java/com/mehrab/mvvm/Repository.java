@@ -34,10 +34,12 @@ public class Repository {
     }
 
     public LiveData<List<Post>> getAllPosts() {
+        fetchPosts(); //fetching data from server
         return allPosts;
     }
 
-    public void getPosts() {
+    //This method fetches data from server and stores it locally through the insert() method
+    public void fetchPosts() {
         final MutableLiveData<List<Post>> data=new MutableLiveData<>();
         api.getPosts().enqueue(new Callback<List<Post>>() {
             @Override

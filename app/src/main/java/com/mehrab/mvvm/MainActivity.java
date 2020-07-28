@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Repository.getInstance(getApplication()).getPosts();
+        Repository.getInstance(getApplication()).fetchPosts();
 
     }
 }
