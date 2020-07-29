@@ -1,5 +1,8 @@
 # MVVM_simple_demo
-This is the simplest but effective example of applying MVVM+LiveData+Retrofit+Room(SQLite) as shown in the diagram -> https://androidwave.com/wp-content/uploads/2019/05/mvvm-architecture-app-in-android.png
+This is the simplest but effective example of applying MVVM+LiveData+Retrofit+Room(SQLite) as shown in the diagram -> 
+
+ ![MVVM_Architecture](https://androidwave.com/wp-content/uploads/2019/05/mvvm-architecture-app-in-android.png)
+
  (Except ViewModel)
  
 # What does it do
